@@ -1,0 +1,127 @@
+<!DOCtype html>
+<html lang="en">
+<!--my first build,plz ignore my bad English newbie experience-->
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport"
+content="width=device-width,initial-scale=0.3">
+
+<style type="text/css">
+*{margin:0;
+	padding:0;}
+header{
+				background:url("er.jpg") 
+				no-repeat; 
+     background-size:cover;
+     max-width:100%;
+     height:100vh;
+} 
+     
+.logo{
+				float:left;
+} 
+
+.logo h1{
+				font-family: monospace;
+     font-size:50px;
+     padding:10px 30px;
+     color:#fff;
+} 
+       
+nav{
+				padding:30px 0;
+     height:70px;
+     width:100%;
+				background-color:#e13d29;
+}
+				       
+.menu{
+				float: right;
+     padding:30px;
+}
+
+.menu>ul>li{
+			       	list-style:none;
+           display: inline-block;
+}
+.menu>ul>li>a{
+				text-decoration:none;
+     transition: 2s;
+     color: white;
+     font-weight:bold;
+     padding: 10px 25px;
+     font-size: 20px;
+}
+ 
+.menu>ul>li>a:hover{
+			          	color:#050101;
+              padding:20px 35px;
+              font-weight:bold;
+}
+
+.part{
+			  	padding: 400px 100px;
+      text-align: center;
+}
+.part h2{
+			    	font-family: poppins;
+        font-size:48px;
+        color:#fff;
+        text-shadow:2px 3px 3px #fff;
+        padding-bottom:30px;
+        
+}
+        
+.part p{color:#fff;
+font-size:28px;
+padding:20px 0  40px 0;}
+    
+.part>a{
+				text-decoration:none;
+				color:#fff;
+				padding:10px 20px;
+				border:1px solid #fff;
+				font-size:20px;
+				display: inline-block;
+				
+				width:110px;
+				background-color:#e13d29;
+				transition:0.5s;
+				text-align: center;}
+.part>a:hover{color:#d90000;
+background: transparent;
+}				      
+                   
+</style>
+</head>
+<body>
+<header>
+<nav>
+<!--logo-->
+<div class="logo">
+<h1>foxxeon</h1>
+</div>
+<!--menu-->
+<div class="menu">
+<ul>
+<li><a href="#default">Home</a></li>
+<li><a href="#">Contact</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Blog</a></li>
+<li><a href="#">Faq</a></li>
+</ul>
+</div>
+</nav>
+<!--part 1-->
+<div class="part">
+<h2>welcome to my website</h2>
+<p>we are the group of Benjamin co.Lorem ipsum dolor sit amet, consectetur.<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis, arcu a bibendum fermentum,  ex quis ullamcorper. </p>
+<!--button-->
+<a href="#" >Learn more</a>
+<a href="#" >Hire  us</a>
+</div>
+</header>
+</body>
+</html>
+<!--</>-->
+
