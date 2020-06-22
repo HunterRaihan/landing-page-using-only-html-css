@@ -1,11 +1,11 @@
-<!DOCtype html>
+<!DOCTYPE html>
 <html lang="en">
 <!--my first build,plz ignore my bad English newbie experience-->
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport"
 content="width=device-width,initial-scale=0.3">
-
+<!--internel Css-->
 <style type="text/css">
 *{margin:0;
 	padding:0;}
@@ -91,7 +91,7 @@ padding:20px 0  40px 0;}
 .part>a:hover{color:#d90000;
 background: transparent;
 }				      
-                   
+ <!--end-->                  
 </style>
 </head>
 <body>
@@ -123,5 +123,5 @@ background: transparent;
 </header>
 </body>
 </html>
-<!--</>-->
+<!--<code/awesome>-->
 
